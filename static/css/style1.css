@@ -1,0 +1,273 @@
+/* Reset styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Body styles */
+  body {
+    background-color: #f1f1f1;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+  }
+  
+  .container-fluid {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* Heading styles */
+  #heading {
+    color: #333;
+    font-size: 36px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  /* Intro paragraph styles */
+  #intro {
+    font-size: 18px;
+    color: #555;
+    text-align: center;
+  }
+  
+  /* Total budget form styles */
+  #budget {
+    background-color: #fff;
+    padding: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .form-horizontal .form-group {
+    margin-bottom: 20px;
+  }
+  
+  .form-horizontal .control-label {
+    font-size: 24px;
+    margin-top: 5px;
+  }
+  
+  .form-control {
+    font-size: 24px;
+    display: inline-block;
+    width: 200px;
+  }
+  
+  /* Free expenditure table styles */
+  #freeSpend {
+    background-color: #fff;
+    padding: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .table-free {
+    width: 100%;
+    border: 1px solid #ddd;
+    border-collapse: collapse;
+  }
+  
+  .table-free caption {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .table-free th,
+  .table-free td {
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #ddd;
+  }
+  
+  .table-free th {
+    background-color: #ddd;
+  }
+  
+  /* Fixed expenditure table styles */
+  #fixedSpend {
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .table {
+    width: 100%;
+    border: 1px solid #ddd;
+    border-collapse: collapse;
+  }
+  
+  .table caption {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .table th,
+  .table td {
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #ddd;
+  }
+  
+  .table th {
+    background-color: #ddd;
+  }
+  
+  /* Input styles */
+  input[type="number"] {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    width: 100%;
+    max-width: 200px;
+    font-size: 18px;
+    text-align: center;
+  }
+  
+  /* Category styles */
+  .category {
+    font-weight: bold;
+  }
+  
+  /* Table footer styles */
+  tfoot tr td {
+    font-weight: bold;
+    text-align: right;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .container-fluid {
+      padding: 10px;
+    }}
+  
+    #budget,
+    #freeSpend,
+    #fixedSpend {
+      margin-right: 0;
+    }
+  
+    .form-horizontal .control-label {
+      font-size: 18px;
+    }
+  
+    .form-control {
+      font-size: 18px;
+    }
+  
+    input[type="number"] {
+      font-size: 16px;
+      padding: 5px;
+    }
+  
+    .table caption {
+      font-size: 20px;
+    }
+    .submit-btn1 {
+        display: inline-block;
+        padding: 10px 20px;
+        font-size: 18px;
+        font-weight: bold;
+        text-align: left;
+        color: #fff;
+        background-color: #007bff;
+        border: none;
+        margin-top: 20px;
+        border-radius: 5px;
+        box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+        cursor: pointer;
+      }
+      header {
+        position: absolute;
+        top: 0;
+        left: 0;
+        padding: 0px 100px;
+        background-color: #1e3d73;
+        width: 100%;
+        box-sizing: border-box;
+        z-index:10;
+      }
+      
+      header .logo {
+        color: #fff;
+        height: 50px;
+        line-height: 50px;
+        font-size: 24px;
+        float: left;
+        font-weight: bold;
+      }
+      
+      header nav {
+        float: right;
+      }
+      
+      header nav ul {
+        margin: 0;
+        padding: 0;
+        display: flex;
+      }
+      
+      header nav ul li {
+        list-style: none;
+      }
+      
+      header nav ul li a {
+        height: 50px;
+        line-height: 50px;
+        padding: 0 20px;
+        color: #fff;
+        text-decoration: none;
+        display: block;
+        font-size: 18px;
+      }
+      
+      header nav ul li a:hover {
+        color: #fff;
+        background-color: #429ee9;
+      }
+      
+      .menu-toggle {
+        color: #fff;
+        float: right;
+        line-height: 50px;
+        font-size: 24px;
+        cursor: pointer;
+        display: none;
+      }
+    
+      
+      .submit-btn1:hover {
+        background-color: #0066cc;
+      }
+      
+      .submit-btn1:active {
+        box-shadow: none;
+        transform: translateY(2px);
+      }
+      .submit-btn2 {
+        display: inline-block;
+        padding: 10px 20px;
+        font-size: 18px;
+        font-weight: bold;
+        color: #fff;
+        text-align: center;
+        background-color: #007bff;
+        border: none;
+        border-radius: 5px;
+        margin-top: 20px;
+        box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+        cursor: pointer;
+      }
+      
+      .submit-btn2:hover {
+        background-color: #0066cc;
+      }
+      
+      .submit-btn2:active {
+        box-shadow: none;
+        transform: translateY(2px);
+      }
